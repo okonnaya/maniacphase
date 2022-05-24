@@ -1,6 +1,6 @@
 body{
   overflow: hidden;
-  animation: color-repeater 18s infinite;
+  animation: color-repeater 1s infinite;
   cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5' fill='%23FF0000'/%3E%3C/svg%3E%0A"), auto;
 }
 
@@ -20,6 +20,9 @@ body{
   100% {
     background: #2CAB5B;
   }
+}
+.mylovers{
+  border: 20px black;
 }
 
 .base{

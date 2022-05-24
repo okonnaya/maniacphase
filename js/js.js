@@ -1,3 +1,8 @@
+// $( function() {
+//     $( ".draggable" ).draggable();
+//   } );
+
+
 figures = [
 '0.svg',
 '1.svg',
@@ -34,11 +39,14 @@ function randomfigures(){
   const max = 100;
   color_random = colors[Math.floor(Math.random()*colors.length)];
   console.log(color_random);
-  img.style.top =  `${Math.floor(Math.random()*(max + 1))}%`
-  img.style.left = `${Math.floor(Math.random()*max + 1)}%`
+  img.style.bottom =  `${Math.floor(Math.random()*(max + 0.5))}%`
+  img.style.left = `${Math.floor(Math.random()*max + 0.5)}%`
+  img.style.right = `${Math.floor(Math.random()*max + 0.5)}%`
   var a = Math.random() * 1000 - 5;
   img.style.transform = 'rotate(' + a + 'deg)';
+  img.classList.add("mylovers");
+  img.classList.add("draggable");
   document.body.appendChild(img);
 }
 
-setInterval(randomfigures, 700);
+setInterval(randomfigures, 1000);
