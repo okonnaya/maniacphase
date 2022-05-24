@@ -32,6 +32,8 @@ function randomfigures(){
   img.src = `./images/${nomer}.svg`;
   img.style.position = "absolute";
   const max = 100;
+  color_random = colors[Math.floor(Math.random()*colors.length)];
+  console.log(color_random);
   img.style.top =  `${Math.floor(Math.random()*(max + 1))}%`
   img.style.left = `${Math.floor(Math.random()*max + 1)}%`
   var a = Math.random() * 1000 - 5;
