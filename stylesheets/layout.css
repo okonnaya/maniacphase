@@ -23,6 +23,7 @@ body{
 }
 .mylovers{
   border: 20px black;
+   /* filter: blur(500px); */
 }
 
 .base{
@@ -35,11 +36,4 @@ body{
   background: #FFFFFF;
   border: 8px solid #000000;
   border-radius: 72px;
-}
-
-
-.suka2{
-  transform: scale(2, 0.5);
-  cursor: pointer;
-
 }
