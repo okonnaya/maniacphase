@@ -33,8 +33,9 @@
 // ]
 function randomfigures(){
   var nomer = Math.floor(Math.random() * 10);
-  var img = document.createElement("img");
-  img.src = `./images/${nomer}.svg`;
+  var img = '<div  class='mylovers draggable'></div>';
+   $("#jsback").prepend(img);
+  img.mask = `./images/${nomer}.svg`;
   img.style.position = "absolute";
   const max = 100;
   // color_random = colors[Math.floor(Math.random()*colors.length)];

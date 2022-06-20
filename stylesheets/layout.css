@@ -1,6 +1,7 @@
 body{
   overflow: hidden;
-  animation: color-repeater 1s infinite;
+  /* animation: color-repeater 1s infinite; */
+  font-family: 'Inter', sans-serif;
   cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5' fill='%23FF0000'/%3E%3C/svg%3E%0A"), auto;
 }
 
@@ -26,14 +27,122 @@ body{
    /* filter: blur(500px); */
 }
 
-.base{
-  box-sizing: border-box;
+h1{
+  font-size: 4.5vh;
+}
+
+.mainone{
+  display: flex;
+  margin-top: 11.1vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.welcome{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66.5vh;
+  height: 11.1vh;
+  background-image:url("../images/скругл1.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bureau{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44.1vh;
+  height: 11.1vh;
+  background-image:url("../images/шестикульник1.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+
+}
+
+.hov1:hover{
+  background-image: url("../images/hov1.png");
+  background-size: 100% 100%;
+  background-position: center;
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
+
+  transition: all 0.3s ease;
+}
+
+.line1{
+  width: 0.2vh;
+  height: 11.1vh;
+  background-color: black;
+}
+.line2{
   position: absolute;
-  width: 720px;
-  height: 120px;
-  left: 600px;
-  top: 120px;
-  background: #FFFFFF;
-  border: 8px solid #000000;
-  border-radius: 72px;
+  top:38.85vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width:37.5vw;
+  height: 0.2vh;
+  background-color: black;
+  z-index: 1;
+}
+.tak1{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 38.85vh;
+  width:37.5vw;
+}
+
+
+.shtuki1{
+  display: flex;
+  justify-content: space-between;
+  width: 37.5vw;
+}
+.tak2{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 52.85vh;
+  width: 90.5vw;
+}
+
+.shtuki2{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90.5vw;
+}
+.line3{
+  width: 0.2vh;
+  height: 14.63vh;
+  background-color: black;
+}
+
+.line4{
+  width: 0.2vh;
+  height: 38vh;
+  background-color: black;
+  z-index: 1;
+}
+
+.block1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44.1vh;
+  height: 11.1vh;
+  background-image:url("../images/шестикульник1.svg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
 }
