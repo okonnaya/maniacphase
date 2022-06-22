@@ -1,6 +1,7 @@
 body{
   overflow: hidden;
-  /* animation: color-repeater 1s infinite; */
+  height: 100vh;
+  animation: color-repeater 5s infinite;
   font-family: 'Inter', sans-serif;
   cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5' fill='%23FF0000'/%3E%3C/svg%3E%0A"), auto;
 }
@@ -27,13 +28,18 @@ body{
    /* filter: blur(500px); */
 }
 
+a{
+  decoration: none;
+}
+
 h1{
   font-size: 4.5vh;
 }
 
+
 .mainone{
   display: flex;
-  margin-top: 11.1vh;
+  padding-top: 11.1vh;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -49,6 +55,7 @@ h1{
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 3;
 }
 .bureau{
   display: flex;
@@ -60,7 +67,7 @@ h1{
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 2;
+  z-index: 3;
 
 }
 
@@ -69,14 +76,14 @@ h1{
   background-size: 100% 100%;
   background-position: center;
   cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
-
   transition: all 0.3s ease;
 }
 
 .line1{
-  width: 0.2vh;
+  width: 2px;
   height: 11.1vh;
   background-color: black;
+  z-index: 3;
 }
 .line2{
   position: absolute;
@@ -86,9 +93,9 @@ h1{
   left: 0;
   right: 0;
   width:37.5vw;
-  height: 0.2vh;
+  height:2px;
   background-color: black;
-  z-index: 1;
+  z-index: 2;
 }
 .tak1{
   position: absolute;
@@ -122,16 +129,16 @@ h1{
   width: 90.5vw;
 }
 .line3{
-  width: 0.2vh;
+  width: 2px;
   height: 14.63vh;
   background-color: black;
 }
 
 .line4{
-  width: 0.2vh;
-  height: 38vh;
+  width: 2px;
+  height: 31.1vh;
   background-color: black;
-  z-index: 1;
+  z-index: 2;
 }
 
 .block1{
@@ -144,5 +151,128 @@ h1{
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 2;
+  z-index: 3;
+}
+input::placeholder{
+  color: black;
+}
+input{
+  position: absolute;
+  left: 57vw;
+  top: 70vh;
+  align-self: flex-end;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  z-index: 3;
+  font-size: 4.5vh;
+  border-color: black;
+  border-width: 0.2vh;
+  width: 42.1vh;
+  height: 11.1vh;
+}
+
+input:hover {
+  background-color: rgba(255, 255, 255, .5);
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
+
+}
+input:focus {
+  background: rgba(255, 255, 255, .8);
+}
+
+
+
+footer{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 3vh;
+  width: 97vw;
+}
+.below{
+  display: flex;
+  width: 97vw;
+  justify-content: space-between
+}
+.rightalign{
+  text-align: right;
+}
+
+.hov2:hover{
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a:link, a:visited {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover{
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+#jsback{
+  z-index: 1;
+}
+.test{
+  position: absolute;
+  -webkit-mask-image: url("./images/7.svg");
+  mask-image: url("./images/7.svg");
+  background-color: red;
+  width: 800px;
+  height: 800px;
+}
+
+.menu1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8vw;
+  width: 12.5vw;
+  height: 6.57407407vh;
+  background-image:url("../images/шестикульник1.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header{
+  height: 11.11111vh;
+  weight: 100vw;
+  background: linear-gradient(rgba(255,255,255, 1), 60%, rgba(255,0,0,0));
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+.head1{
+  display: flex;
+  height: 11.11111vh;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: auto;
+  left: 0;
+  right:0;
+  width: 93.75vw;
+}
+
+.head2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 59.375vw;
+}
+.line5{
+  position: absolute;
+  top: 0;
+  left: 3.125vw;
+  width: 0.082vw;
+  height: 11.11111vh;
+  background-color: black;
 }

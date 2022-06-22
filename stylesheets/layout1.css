@@ -1,0 +1,221 @@
+body{
+  /* animation: none; */
+}
+
+.mylovers{
+  filter: blur(15vh);
+  z-index: 1;
+}
+
+.mainblock2{
+  margin: auto;
+  left: 0;
+  right:0;
+  width: 93.75vw;
+}
+.borderr{
+  border: 2px solid #000000;
+}
+.block2{
+  position: absolute;
+  text-align: center;
+  top: 19.222222vh;
+  line-height: 11.11111vh;
+  width: 37.5vw;
+  height: 11.11111vh;
+  background-color: white;
+  border-radius: 182px;
+  font-size: 1.8vw;
+}
+
+.block3{
+  position: absolute;
+  text-align: left;
+  top: 35.8888889vh;
+  width: 33.5vw;
+  height: 27.7777778vh;
+  background-color: white;
+  font-size: 2.3vh;
+  line-height: 1.4vw;
+  padding-top: 1.85185185vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.block4{
+  position: absolute;
+  top: 19.222222vh;
+  left: 43.75vw;
+  width: 37.5vw;
+  height: 16.666667vh;
+  background-image: url("../images/картинка1.png");
+  background-size: 80% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 160px;
+}
+
+.line6{
+  position: absolute;
+  top: 30.5vh;
+  left: 21.875vw;
+  width: 2px;
+  height: 5.833333vh;
+  background-color: black;
+}
+
+.line7{
+  position: absolute;
+  top: 66vh;
+  left: 21.875vw;
+  width: 2px;
+  height: 16.66666vh;
+  background-color: black;
+}
+.line8{
+  position: absolute;
+  top: 66vh;
+  left: 9.32291666vw;
+  width: 2px;
+  height: 27.7777778vh;
+  background-color: black;
+}
+
+.block5{
+  position: absolute;
+  top: 47.277777vh;
+  left: 75vw;
+  width: 21.875vw;
+  height: 16.666667vh;
+  background-image: url("../images/картинка2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 160px;
+  z-index: 2;
+}
+.block6{
+  position: absolute;
+  top: 72.277777vh;
+  left: 75vw;
+  width: 21.875vw;
+  height: 16.666667vh;
+  background-image: url("../images/картинка3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 160px;
+  z-index: 2;
+}
+
+.hov3:hover{
+  border-radius: 0;
+}
+
+.line9{
+  position: absolute;
+  top: 27.7vh;
+  left: 86.32291666vw;
+  width:2px;
+  height: 66vh;
+  background-color: black;
+}
+
+.line10{
+  position: absolute;
+  top: 36.4vh;
+  left: 62.8vw;
+  width: 2px;
+  height: 46.3vh;
+  background-color: black;
+}
+
+
+.line11{
+  position: absolute;
+  top: 82.5vh;
+  left:21.9vw;
+  width: 40.9375vw;
+  height: 2px;
+  background-color: black;
+}
+.form1{
+  position: absolute;
+  text-align: center;
+  top: 79.3vh;
+  left: 32vw;
+  width: 22.5vw;
+  font-size: 1.8vw;
+  height: 6.57407407vh;
+  background-image:url("../images/шестикульник1.svg");
+  background-size: 100% auto;
+  line-height: 6.57407407vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.line12{
+  position: absolute;
+  top: 93.6vh;
+  left:9.45vw;
+  width: 76.9375vw;
+  height:2px;
+  background-color: black;
+}
+.line13{
+  position: absolute;
+  top: 27.599999999999994vh;
+  left:67.45vw;
+  width: 18.9375vw;
+  height:2px;
+  background-color: black;
+}
+
+.vopros{
+  position: absolute;
+  width: 7.87037037vh;
+  height: 7.87037037vh;
+  left: 60.3vw;
+  top: 51vh;
+  transform: rotate(45deg);
+  background-color: white;
+}
+.vopros1{
+  transform: rotate(-45deg);
+  line-height: 7vh;
+  text-align: center;
+  font-size: 1.8vw;
+}
+
+.vopros:hover{
+  background-color: rgba(255, 255, 255, .5);
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
+}
+
+.nothing404{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  font-size: 2vw;
+  width: 45.5vw;
+  height:19.57407407vh;
+  background-image:url("../images/шестикульник1.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  z-index: 2;
+}
+.mainone3{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
