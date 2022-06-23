@@ -1,7 +1,3 @@
-$( function() {
-    $( ".draggable" ).draggable();
-  } );
-
 function randomfigures(){
   var nomer = Math.floor(Math.random() * 10);
   let figure = document.createElement("div")

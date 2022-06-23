@@ -75,7 +75,7 @@ h1{
   background-image: url("../images/hov1.png");
   background-size: 100% 100%;
   background-position: center;
-  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='blue'/%3E%3C/svg%3E%0A"), auto;
   transition: all 0.3s ease;
 }
 
@@ -156,26 +156,26 @@ h1{
 input::placeholder{
   color: black;
 }
-input{
-  position: absolute;
+.password{
   left: 57vw;
   top: 70vh;
+  position: absolute;
   align-self: flex-end;
+
+}
+input{
   text-align: center;
-  cursor: pointer;
   font-family: 'Inter', sans-serif;
   background-color: white;
   z-index: 3;
   font-size: 4.5vh;
-  border-color: black;
-  border-width: 0.2vh;
   width: 42.1vh;
   height: 11.1vh;
 }
 
 input:hover {
   background-color: rgba(255, 255, 255, .5);
-  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='blue'/%3E%3C/svg%3E%0A"), auto;
 
 }
 input:focus {
@@ -195,14 +195,14 @@ footer{
 .below{
   display: flex;
   width: 97vw;
-  justify-content: space-between
+  justify-content: space-between;
 }
 .rightalign{
   text-align: right;
 }
 
 .hov2:hover{
-  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='blue'/%3E%3C/svg%3E%0A"), auto;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -212,7 +212,7 @@ a:link, a:visited {
   text-decoration: none;
 }
 a:hover{
-  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='black'/%3E%3C/svg%3E%0A"), auto;
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='blue'/%3E%3C/svg%3E%0A"), auto;
   color: rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
 }
@@ -249,6 +249,7 @@ header{
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 4;
 }
 .head1{
   display: flex;
@@ -275,4 +276,7 @@ header{
   width: 0.082vw;
   height: 11.11111vh;
   background-color: black;
+}
+.visibility{
+  display: none;
 }
