@@ -18,7 +18,28 @@ $(function(){
 $(function(){
   $(".submit").click(function(){
     $( ".name" ).val("");
-    $( ".name1" ).val("");
+    $( ".name2" ).val("");
     $( ".email" ).val("");
+});
+});
+
+
+$(function(){
+  $(".rhomb1").click(function(){
+    $( ".a1" ).toggleClass("visibility");
+    $( ".prints" ).toggleClass("visibility");
+});
+});
+
+$(function(){
+  $(".rhomb2").click(function(){
+    $( ".a2" ).toggleClass("visibility");
+    $( ".souvenirs" ).toggleClass("visibility");
+});
+});
+$(function(){
+  $(".rhomb3").click(function(){
+    $( ".a3" ).toggleClass("visibility");
+    $( ".knots" ).toggleClass("visibility");
 });
 });

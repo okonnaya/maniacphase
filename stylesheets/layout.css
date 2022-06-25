@@ -36,7 +36,9 @@ h1{
   font-size: 4.5vh;
 }
 
-
+.borderr{
+  border: 2px solid #000000;
+}
 .mainone{
   display: flex;
   padding-top: 11.1vh;
@@ -51,10 +53,8 @@ h1{
   justify-content: center;
   width: 66.5vh;
   height: 11.1vh;
-  background-image:url("../images/скругл1.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: white;
+
   z-index: 3;
 }
 .bureau{
@@ -241,7 +241,9 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.hov5:hover{
+  filter: grayscale(0%);
+}
 header{
   height: 11.11111vh;
   weight: 100vw;
@@ -261,6 +263,7 @@ header{
   left: 0;
   right:0;
   width: 93.75vw;
+  z-index: 3;
 }
 
 .head2{
@@ -268,14 +271,16 @@ header{
   flex-direction: row;
   justify-content: space-between;
   width: 59.375vw;
+  z-index: inherit;
 }
 .line5{
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 3.125vw;
-  width: 0.082vw;
-  height: 11.11111vh;
+  left: 9.125vw;
+  width: 2px;
+  height: 10.11111vh;
   background-color: black;
+  z-index: -1;
 }
 .visibility{
   display: none;

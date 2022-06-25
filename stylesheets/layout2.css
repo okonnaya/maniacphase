@@ -20,10 +20,16 @@ body{
 }
 .text1{
   /* background-color: blue; */
-  width: 14.625vw;
-  height: 22.4895833vw;
+  width: 11.625vw;
+  margin-bottom: 7vh;
+  height: 6.4895833vw;
+  border: 2px solid #000000;
   padding-left: 1vw;
+  margin-left: 1vw;
   padding-top: 1vw;
+  margin-right: 2vw;
+  margin-top:3vh;
+  font-size: 2.3vh;
 }
 .pic1{
   box-sizing: border-box;
@@ -32,7 +38,8 @@ body{
   /* background-color:red; */
   width:15.625vw;
   height: 23.4895833vw;
-  border: 2px solid black;
+  border-radius: 3vh;
+  border: 2px solid #000000;
   overflow: hidden;
 }
 

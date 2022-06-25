@@ -13,9 +13,7 @@ body{
   right:0;
   width: 93.75vw;
 }
-.borderr{
-  border: 2px solid #000000;
-}
+
 .block2{
   position: absolute;
   text-align: center;
@@ -24,7 +22,6 @@ body{
   width: 37.5vw;
   height: 11.11111vh;
   background-color: white;
-  border-radius: 182px;
   font-size: 1.8vw;
 }
 
@@ -44,16 +41,16 @@ body{
 
 .block4{
   position: absolute;
-  top: 19.222222vh;
-  left: 43.75vw;
-  width: 37.5vw;
-  height: 16.666667vh;
-  background-image: url("../images/картинка1.png");
-  background-size: 80% auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  top:19.222222vh;
+  width: 20vw;
+  left: 52.75vw;
+  height: 11.11111vh;
   background-color: white;
-  border-radius: 160px;
+  font-size: 2.3vh;
+  line-height: 1.4vw;
+  padding-top: 1.85185185vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .line6{
@@ -88,6 +85,7 @@ body{
   left: 75vw;
   width: 21.875vw;
   height: 16.666667vh;
+  filter: grayscale(100%) contrast(400%);
   background-image: url("../images/картинка2.png");
   background-size: cover;
   background-position: center;
@@ -95,6 +93,7 @@ body{
   background-color: white;
   border-radius: 160px;
   z-index: 2;
+  transition: transform 1s, filter .5s ease-out;
 }
 .block6{
   position: absolute;
@@ -102,17 +101,25 @@ body{
   left: 75vw;
   width: 21.875vw;
   height: 16.666667vh;
+  overflow: hidden;
   background-image: url("../images/картинка3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: white;
   border-radius: 160px;
+  filter: grayscale(100%) contrast(400%);
+  transform-origin: 50% 50%;
+  transition: transform 1s, filter .5s ease-out;
   z-index: 2;
 }
 
 .hov3:hover{
   border-radius: 0;
+}
+.hov4:hover{
+  animation: color-repeater 1s infinite;
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='blue'/%3E%3C/svg%3E%0A"), auto;
 }
 
 .line9{
@@ -126,10 +133,10 @@ body{
 
 .line10{
   position: absolute;
-  top: 36.4vh;
+  top: 28.4vh;
   left: 62.8vw;
   width: 2px;
-  height: 46.3vh;
+  height: 54.3vh;
   background-color: black;
 }
 
@@ -146,12 +153,12 @@ body{
   position: absolute;
   text-align: center;
   top: 79.3vh;
-  left: 32vw;
-  width: 22.5vw;
+  left: 40vw;
+  width: 16vw;
   font-size: 1.8vw;
   height: 6.57407407vh;
   background-image:url("../images/шестикульник1.svg");
-  background-size: 100% auto;
+  background-size: 100% 100%;
   line-height: 6.57407407vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -261,13 +268,15 @@ body{
 .submit{
   text-align: center;
   font-family: 'Inter', sans-serif;
-  background-color: white;
   z-index: 3;
   font-size: 4.3vh;
-  width:20vw;
+  width:27vw;
   height: 11.1vh;
   line-height: 11.1vh;
-  border-radius: 10vh;
+  background-image:url("../images/шестикульник1.svg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 .vopros2{
@@ -286,16 +295,17 @@ body{
 .line18 {
     position: absolute;
     top: 0;
-    left: 68.7vw;
-    width: 0.082vw;
-    height: 11.11111vh;
+    left: 74.7vw;
+    width: 2px;
+    height: 10.11111vh;
     background-color: black;
+    z-index: -1;
 }
 .line19 {
     position: absolute;
     top: 0;
-    left:53.1vw;
+    left:59.1vw;
     width: 2px;
-    height: 11.11111vh;
+    height: 10vh;
     background-color: black;
 }
