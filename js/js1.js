@@ -43,3 +43,17 @@ $(function(){
     $( ".knots" ).toggleClass("visibility");
 });
 });
+
+$(function(){
+  $(".sotr").click(function(){
+    var value = $(".password").val();
+    if (value == "сюр"){
+      window.open("employ.html");
+    }else{
+      alert("пароль неверный! подумай ещё");
+    };
+
+
+
+});
+});

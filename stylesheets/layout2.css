@@ -1,6 +1,6 @@
 body{
   overflow: visible;
-  animation: none;
+  /* animation: none; */
 }
 .pictures{
   display: flex;
@@ -19,7 +19,7 @@ body{
   flex-direction: row;
 }
 .text1{
-  /* background-color: blue; */
+  background-color: white;
   width: 11.625vw;
   margin-bottom: 7vh;
   height: 6.4895833vw;
@@ -217,4 +217,280 @@ body{
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
+}
+/* страница схемы */
+.line30 {
+    position: fixed;
+    top: 0;
+    left: 43.5vw;
+    width: 2px;
+    height: 10vh;
+    background-color: black;
+    z-index: -1;
+}
+.map{
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 15vh;
+  position: absolute;
+  width:110.18518vh;
+  height: 78.7037037vh;
+  background-image: url("../images/scheme.png");
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.area1{
+
+}
+
+.block20, .block21, .block24, .block27, .block28, .block29, .block30{
+  position: absolute;
+  left: 6.25vw;
+  position: absolute;
+  text-align: center;
+  line-height: 11.11111vh;
+  width: 37.5vw;
+  height: 11.11111vh;
+  background-color: white;
+  font-size: 1.8vw;
+
+}
+.block20{
+  top: 100vh;
+}
+
+.block21{
+  top: 115vh;
+}
+
+.block22{
+  position: absolute;
+  left: 6.25vw;
+  top: 130vh;
+  text-align: left;
+  width: 35.5vw;
+  height: 16vh;
+  padding-top: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: white;
+  line-height: 1.4vw;
+  font-size: 2.3vh;
+}
+
+.img28{
+  position: absolute;
+  left: 50.0520833vw;
+  top: 100vh;
+  width: 43.6979167vw;
+  height: 48vh;
+  border-radius: 5vw;
+}
+.img29{
+  position: absolute;
+  left: 6.25vw;
+  top: 153vh;
+  width: 87.395833vw;
+  height: 45vh;
+  border-radius: 5vw;
+}
+
+.block23{
+  position: absolute;
+  left: 6.25vw;
+  top: 203vh;
+  text-align: left;
+  width: 35.5vw;
+  height: 18vh;
+  padding-top: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: white;
+  line-height: 1.4vw;
+  font-size: 2.3vh;
+}
+
+.block24{
+  left: 55.625vw;
+  top: 223vh;
+}
+.img30{
+  position: absolute;
+  left: 6.25vw;
+  top: 228vh;
+  width: 43.6979167vw;
+  height: 48vh;
+  border-radius: 5vw;
+}
+.block25{
+  position: absolute;
+  left: 55.625vw;
+  top: 238vh;
+  text-align: left;
+  width: 35.5vw;
+  height: 25vh;
+  padding-top: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: white;
+  line-height: 1.4vw;
+  font-size: 2.3vh;
+}
+
+.img31{
+  position: absolute;
+  left: 6.25vw;
+  top: 281vh;
+  width: 37vh;
+  height: 37vh;
+  border-radius: 5vw;
+}
+
+.img32{
+  position: absolute;
+  margin: auto;
+  left: 0vw;
+  right: 0;
+  top: 281vh;
+  width: 37vh;
+  height: 37vh;
+  border-radius: 5vw;
+}
+.img33{
+  position: absolute;
+  left: 72vw;
+  top: 281vh;
+  width: 37vh;
+  height: 37vh;
+  border-radius: 5vw;
+}
+
+.img34{
+  position: absolute;
+  left: 72vw;
+  top: 330vh;
+  width: 37vh;
+  height: 37vh;
+  border-radius: 5vw;
+}
+
+.block26{
+  position: absolute;
+  left: 6.25vw;
+  top: 330vh;
+  text-align: left;
+  width: 35.5vw;
+  height: 11vh;
+  padding-top: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: white;
+  line-height: 1.4vw;
+  font-size: 2.3vh;
+}
+
+.block27{
+  position: absolute;
+  left: 6.25vw;
+  top: 367vh;
+}
+.block28{
+  top: 383vh;
+}
+.block29{
+  top: 399vh;
+}
+.block30{
+  top: 415vh;
+}
+
+.block31{
+  position: absolute;
+  left: 55.625vw;
+  top: 392vh;
+  text-align: left;
+  width: 35.5vw;
+  height: 8vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: white;
+  line-height: 8vh;
+  font-size: 2.3vh;
+}
+.up{
+  position: absolute;
+  text-align: center;
+  line-height: 6.57407407vh;
+  left: 67.625vw;
+  top: 405vh;
+  font-size: 1.8vw;
+  width: 12.5vw;
+  height: 6.57407407vh;
+  background-image:url("../images/шестикульник1.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navigation{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 15vh;
+  padding-top: 14vh;
+  padding-bottom: 14vh;
+  padding-left: 13vh;
+  padding-right: 13vh;
+  position: absolute;
+  width:110.18518vh;
+  height: 78.7037037vh;
+}
+.rhomb4{
+  position: relative;
+  width: 23vh;
+  height: 23vh;
+  transform: rotate(45deg);
+}
+.rhomb5{
+  position: relative;
+  top: 7vh;
+  width: 23vh;
+  height: 23vh;
+  transform: rotate(45deg);
+}
+.rhomb6{
+  position: relative;
+  top: -46vh;
+  left: 30vh;
+  width: 23vh;
+  height: 23vh;
+  transform: rotate(45deg);
+}
+.rhomb7{
+  position: relative;
+  top: -39vh;
+  left: 30vh;
+  width: 23vh;
+  height: 23vh;
+  transform: rotate(45deg);
+}
+.rhomb8{
+  position: relative;
+  top:-92vh;
+  left: 60vh;
+  width: 23vh;
+  height: 23vh;
+  transform: rotate(45deg);
+}
+.rhomb9{
+  position: relative;
+  top:-85vh;
+  left: 60vh;
+  width: 23vh;
+  height: 23vh;
+  transform: rotate(45deg);
 }

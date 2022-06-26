@@ -1,26 +1,26 @@
 body{
   overflow: hidden;
   height: 100vh;
-  animation: color-repeater 5s infinite;
+  animation: color-repeater 10s infinite;
   font-family: 'Inter', sans-serif;
   cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5' fill='%23FF0000'/%3E%3C/svg%3E%0A"), auto;
 }
 
 @keyframes color-repeater {
   0% {
-    background: #2CAB5B;
+    background: #00D208;
   }
   25% {
-    background: #FABC03;
+    background: #FFD600;
   }
   50% {
-    background: #ED4B40;
+    background: #FF3628;
   }
   75% {
-    background: #4286F3;
+    background: #00CEFC;
   }
   100% {
-    background: #2CAB5B;
+    background: #00D208;
   }
 }
 .mylovers{
