@@ -239,3 +239,289 @@ body{
 .a3{
   left: 87vw;
 }
+
+/* первая страничка сотрудников */
+.vopros{
+  top:78vh;
+}
+.line11{
+  width: 64.9375vw;
+}
+
+.block31{
+  position: absolute;
+  left: 46vw;
+  text-align: left;
+  top: 47.8888889vh;
+  width: 20.5vw;
+  height: 15.777777799999996vh;
+  background-color: white;
+  font-size: 2.3vh;
+  line-height: 1.4vw;
+  padding-top: 1.85185185vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.block32{
+  position: absolute;
+  left: 72vw;
+  text-align: left;
+  top: 72.8888889vh;
+  width: 20.5vw;
+  height: 15.777777799999996vh;
+  background-color: white;
+  font-size: 2.3vh;
+  line-height: 1.4vw;
+  padding-top: 1.85185185vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.block33 {
+    position: absolute;
+    text-align: center;
+    top: 47.8888889vh;
+    left:78vw;
+    line-height: 11.11111vh;
+    width: 11.5vw;
+    height: 11.11111vh;
+    background-color: white;
+    font-size: 1.8vw;
+    z-index: 3;
+}
+
+.block34 {
+    position: absolute;
+    top: 19.222222vh;
+    left: 67vw;
+    width: 21.875vw;
+    height: 16.666667vh;
+    filter: grayscale(100%) contrast(400%);
+    background-image: url(../images/картинка20.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 160px;
+    z-index: 2;
+    transition: transform 1s, filter .5s ease-out;
+}
+.line31 {
+    position: absolute;
+    top: 28vh;
+    left: 62.8vw;
+    width: 31.3vw;
+    height: 2px;
+    background-color: black;
+}
+
+.line32 {
+    position: absolute;
+    top:54vh;
+    left:83.9vw;
+    width:10vw;
+    height: 2px;
+    background-color: black;
+}
+
+.line33 {
+    position: absolute;
+    top: 28.3vh;
+    left:94vw;
+    width: 2px;
+    height: 26vh;
+    background-color: black;
+}
+.line34 {
+    position: absolute;
+    top: 51.3vh;
+    left:84vw;
+    width: 2px;
+    height: 26vh;
+    background-color: black;
+    z-index: -1;
+}
+
+.line35 {
+    position: fixed;
+    top: 0;
+    left: 90.5vw;
+    width: 2px;
+    height: 10.11111vh;
+    background-color: black;
+    z-index: -1;
+}
+
+.block35 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 19.222222vh;
+    line-height: 11.11111vh;
+    width: 37.5vw;
+    height: 11.11111vh;
+    background-color: white;
+    font-size: 1.8vw;
+}
+
+.block36 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 35vh;
+    width: 33.5vw;
+    height: 26.11111vh;
+    background-color: white;
+    text-align: left;
+    font-size: 2.3vh;
+    line-height: 1.4vw;
+    padding-top: 1.85185185vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.line36 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 27vh;
+    width: 2px;
+    height: 45vh;
+    background-color: black;
+    z-index: -1;
+}
+.line37 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 72vh;
+    width:55vw;
+    height: 2px;
+    background-color: black;
+}
+.thing1{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width:55vw;
+  top: 72vh;
+  display: flex;
+  justify-content: space-between;
+
+}
+.line38 {
+    width: 2px;
+    height: 89vh;
+    background-color: black;
+    z-index: -1;
+}
+
+.line39 {
+    width: 2px;
+    height: 86vh;
+    background-color: black;
+    z-index: -1;
+}
+.block37 {
+    position: absolute;
+    margin: auto;
+    left: 5vh;
+    text-align: center;
+    top: 80vh;
+    line-height: 11.11111vh;
+    width: 37.5vw;
+    height: 11.11111vh;
+    background-color: white;
+    font-size: 1.8vw;
+}
+.block38 {
+    position: absolute;
+    top: 80vh;
+    left: 57vw;
+    width: 37.5vw;
+    height:41vh;
+    filter: grayscale(100%) contrast(400%);
+    background-image: url(../images/картинка21.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 160px;
+    z-index: 2;
+    transition: transform 1s, filter .5s ease-out;
+}
+.block39 {
+    position: absolute;
+    margin: auto;
+    left: 5vh;
+    top: 95vh;
+    width: 33.5vw;
+    height: 11.11111vh;
+    background-color: white;
+    text-align: left;
+    font-size: 2.3vh;
+    line-height: 1.4vw;
+    padding-top: 1.85185185vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.block40 {
+    position: absolute;
+    top: 121vh;
+    left: 5vh;
+    width: 37.5vw;
+    height: 41vh;
+    filter: grayscale(100%) contrast(400%);
+    background-image: url(../images/картинка22.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 160px;
+    z-index: 2;
+    transition: transform 1s, filter .5s ease-out;
+}
+.block41 {
+    position: absolute;
+    left: 57vw;
+    text-align: center;
+    top: 127vh;
+    line-height: 11.11111vh;
+    width: 37.5vw;
+    height: 11.11111vh;
+    background-color: white;
+    font-size: 1.8vw;
+}
+
+.block42 {
+    position: absolute;
+    left: 57vw;
+    top: 142vh;
+    width: 33.5vw;
+    height: 15.11111vh;
+    background-color: white;
+    text-align: left;
+    font-size: 2.3vh;
+    line-height: 1.4vw;
+    padding-top: 1.85185185vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+/* день */
+
+.line40 {
+  position: absolute;
+  top: 38.8888889vh;
+  width: 100vw;
+  height:2px;
+  background-color: black;
+  z-index: -1;
+}
