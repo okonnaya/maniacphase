@@ -1,6 +1,6 @@
 .mylovers{
-  filter: blur(15vh);
   z-index: 1;
+  filter: blur(0vh);
 }
 
 .mainblock2{

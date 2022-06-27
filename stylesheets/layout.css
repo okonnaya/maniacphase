@@ -25,7 +25,7 @@ body{
 }
 .mylovers{
   border: 20px black;
-   /* filter: blur(500px); */
+  filter: blur(15vh);
 }
 
 a{
@@ -219,14 +219,8 @@ a:hover{
 
 #jsback{
   z-index: 1;
-}
-.test{
-  position: absolute;
-  -webkit-mask-image: url("./images/7.svg");
-  mask-image: url("./images/7.svg");
-  background-color: red;
-  width: 800px;
-  height: 800px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .menu1{
