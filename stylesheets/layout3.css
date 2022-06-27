@@ -50,14 +50,25 @@ body{
   height: 15vh;
   background-color: black;
 }
+
+.block8, .block9, .block10, .block11, .block12, .block13, .block14, .block15, .block16, .block17, .block18, .block19{
+  filter: grayscale(100%) contrast(200%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s, filter .5s ease-out;
+  border-radius: 13vh;
+}
 .block8{
   position: absolute;
   left: 3vw;
   top: 44vh;
   width: 37.5vw;
   height: 39.44444vh;
-  background-color: blue;
-  border-radius: 13vh;
+  background-size: auto 100%;
+  background-image:url("../images/картинка11.jpg");
+  cursor: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15.5' cy='15.5' r='15.5'  color='%23FF0000' fill='blue'/%3E%3C/svg%3E%0A"), auto;
+  background-color: #1A1A1A;
 }
 
 .block9{
@@ -66,8 +77,7 @@ body{
   top:94vh;
   width: 37.5vw;
   height: 39.44444vh;
-  background-color: blue;
-  border-radius: 13vh;
+  background-image:url("../images/картинка12.jpg");
 }
 .block10{
   position: absolute;
@@ -75,8 +85,7 @@ body{
   top:158vh;
   width: 28.125vw;
   height: 37.037037vh;
-  background-color: blue;
-  border-radius: 13vh;
+  background-image:url("../images/картинка13.jpg");
 }
 .line22{
   position: absolute;
@@ -101,8 +110,7 @@ body{
   top:36vh;
   width: 20.833333vw;
   height: 50vh;
-  background-color: red;
-  border-radius: 13vh;
+  background-image:url("../images/картинка16.jpg");
 }
 .block12{
   position: absolute;
@@ -110,8 +118,8 @@ body{
   top:98vh;
   width: 18.75vw;
   height: 50vh;
-  background-color: red;
-  border-radius: 13vh;
+  background-image:url("../images/картинка15.png");
+  background-color: white;
 }
 .block13{
   position: absolute;
@@ -119,8 +127,7 @@ body{
   top:153vh;
   width: 28.125vw;
   height:33.333333vh;
-  background-color: red;
-  border-radius: 13vh;
+  background-image:url("../images/картинка17.jpg");
 }
 .block14{
   position: absolute;
@@ -128,8 +135,7 @@ body{
   top:190vh;
   width: 21.875vw;
   height:33.333333vh;
-  background-color: red;
-  border-radius: 13vh;
+  background-image:url("../images/картинка14.jpg");
 }
 .line27{
   position: absolute;
@@ -177,8 +183,7 @@ body{
   top:35vh;
   width:9.375vw;
   height:33.333333vh;
-  background-color:yellow;
-  border-radius: 13vh;
+  background-image:url("../images/картинка7.png");
 }
 .block16{
   position: absolute;
@@ -186,8 +191,7 @@ body{
   top:58vh;
   width:9.375vw;
   height:33.333333vh;
-  background-color:yellow;
-  border-radius: 13vh;
+  background-image:url("../images/картинка9.png");
 }
 .block17{
   position: absolute;
@@ -195,8 +199,9 @@ body{
   top:95vh;
   width:15.41666667vw;
   height:33.333333vh;
-  background-color:yellow;
-  border-radius: 13vh;
+  background-image:url("../images/картинка10.png");
+  background-size: auto 100%;
+  background-color: white;
 }
 
 .block18{
@@ -205,8 +210,7 @@ body{
   top:132vh;
   width:24.79166667vw;
   height:33.333333vh;
-  background-color:yellow;
-  border-radius: 13vh;
+  background-image:url("../images/картинка18.png");
 }
 .block19{
   position: absolute;
@@ -214,8 +218,8 @@ body{
   top:175vh;
   width:21.6666667vw;
   height:10.78074074vh;
-  background-color:yellow;
-  border-radius: 13vh;
+  filter: grayscale(100%) contrast(100%);
+  background-image:url("../images/картинка19.png");
 }
 .line29{
   position: absolute;

@@ -279,7 +279,13 @@ body{
   line-height: 1.4vw;
   font-size: 2.3vh;
 }
-
+.img28, .img29, .img30, .img31, .img32, .img33, .img34{
+  filter: grayscale(100%) contrast(400%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s, filter .5s ease-out;
+}
 .img28{
   position: absolute;
   left: 50.0520833vw;
@@ -287,6 +293,7 @@ body{
   width: 43.6979167vw;
   height: 48vh;
   border-radius: 5vw;
+  background-image:url("../images/картинка4.jpg");
 }
 .img29{
   position: absolute;
@@ -295,6 +302,7 @@ body{
   width: 87.395833vw;
   height: 45vh;
   border-radius: 5vw;
+  background-image:url("../images/картинка5.jpg");
 }
 
 .block23{
@@ -323,6 +331,7 @@ body{
   width: 43.6979167vw;
   height: 48vh;
   border-radius: 5vw;
+  background-image:url("../images/картинка6.jpg");
 }
 .block25{
   position: absolute;
@@ -339,13 +348,19 @@ body{
   font-size: 2.3vh;
 }
 
+.img31, .img32, .img33, .img34{
+  filter: grayscale(100%) contrast(120%);
+  background-size: contain;
+  background-color: white;
+  width: 37vh;
+  height: 37vh;
+  border-radius: 5vw;
+}
 .img31{
   position: absolute;
   left: 6.25vw;
   top: 281vh;
-  width: 37vh;
-  height: 37vh;
-  border-radius: 5vw;
+  background-image:url("../images/картинка7.png");
 }
 
 .img32{
@@ -354,26 +369,20 @@ body{
   left: 0vw;
   right: 0;
   top: 281vh;
-  width: 37vh;
-  height: 37vh;
-  border-radius: 5vw;
+  background-image:url("../images/картинка8.png");
 }
 .img33{
   position: absolute;
   left: 72vw;
   top: 281vh;
-  width: 37vh;
-  height: 37vh;
-  border-radius: 5vw;
+  background-image:url("../images/картинка9.png");
 }
 
 .img34{
   position: absolute;
   left: 72vw;
   top: 330vh;
-  width: 37vh;
-  height: 37vh;
-  border-radius: 5vw;
+  background-image:url("../images/картинка10.png");
 }
 
 .block26{
