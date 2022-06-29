@@ -238,6 +238,10 @@ a:hover{
 .hov5:hover{
   filter: grayscale(0%);
 }
+.hov5{
+  filter: grayscale(100%) contrast(400%);
+  transition: transform 1s, filter .5s ease-out;
+}
 header{
   height: 11.11111vh;
   weight: 100vw;
@@ -266,6 +270,15 @@ header{
   justify-content: space-between;
   width: 59.375vw;
   z-index: inherit;
+}
+.line30 {
+    position: fixed;
+    top: 0;
+    left: 43.5vw;
+    width: 2px;
+    height: 10vh;
+    background-color: black;
+    z-index: -1;
 }
 .line5{
   position: fixed;

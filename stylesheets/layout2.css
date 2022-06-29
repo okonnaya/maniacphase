@@ -1,5 +1,6 @@
 body{
   overflow: visible;
+  overflow-x: hidden;
   /* animation: none; */
 }
 .pictures{
@@ -47,7 +48,7 @@ body{
   width: 100%;
   height: 100%;
   filter: grayscale(100%) contrast(400%);
-  background: url("../images/img1.png");
+  background: url("../images/img1.jpg");
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -60,14 +61,14 @@ body{
   transform: scale(1.5);
 }
 .img2{
-  background: url("../images/img2.png");
+  background: url("../images/img2.jpg");
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
 }
 
 .img3{
-  background: url("../images/img3.png");
+  background: url("../images/img3.jpg");
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -219,15 +220,6 @@ body{
   background-repeat: no-repeat;
 }
 /* страница схемы */
-.line30 {
-    position: fixed;
-    top: 0;
-    left: 43.5vw;
-    width: 2px;
-    height: 10vh;
-    background-color: black;
-    z-index: -1;
-}
 .map{
   margin: auto;
   left: 0;
@@ -245,7 +237,7 @@ body{
 
 }
 
-.block20, .block21, .block24, .block27, .block28, .block29, .block30{
+.block20,.block58, .block62, .block60,.block21, .block24, .block27, .block28, .block29, .block30, .block56{
   position: absolute;
   left: 6.25vw;
   position: absolute;
@@ -381,7 +373,7 @@ body{
 .img34{
   position: absolute;
   left: 72vw;
-  top: 330vh;
+  top:323vh;
   background-image:url("../images/картинка10.png");
 }
 
@@ -419,7 +411,7 @@ body{
   position: absolute;
   left: 55.625vw;
   top: 392vh;
-  text-align: left;
+  text-align: center;
   width: 35.5vw;
   height: 8vh;
   padding-left: 1vw;
@@ -502,4 +494,320 @@ body{
   width: 23vh;
   height: 23vh;
   transform: rotate(45deg);
+}
+.line41{
+  position: absolute;
+  width: 2px;
+  height:113vh;
+  top:100vh;
+  left: 24vw;
+  background-color: black;
+}
+.line42{
+  position: absolute;
+  width: 2px;
+  height:33vh;
+  top:214vh;
+  left: 74vw;
+  background-color: black;
+}
+.line43{
+  position: absolute;
+  width: 2px;
+  height:33vh;
+  top:308vh;
+  left: 82vw;
+  background-color: black;
+}
+.line44{
+  position: absolute;
+  width: 2px;
+  height:37vh;
+  top:338vh;
+  left: 24vw;
+  background-color: black;
+}
+.line45{
+  position: absolute;
+  width: 2px;
+  height:50vh;
+  top:372vh;
+  left: 50vw;
+  background-color: black;
+}
+
+.line46{
+  position: absolute;
+  width: 2px;
+  height:13vh;
+  top:393vh;
+  left: 74vw;
+  background-color: black;
+}
+
+.line47{
+  position: absolute;
+  width: 2px;
+  height:69vh;
+  top:271vh;
+  left: 17vw;
+  background-color: black;
+}
+
+.line48{
+  position: absolute;
+  width: 20vw;
+  height:2px;
+  top:121vh;
+  left: 37vw;
+  background-color: black;
+}
+
+.line49{
+  position: absolute;
+  width: 37vw;
+  height:2px;
+  top:214vh;
+  left: 37vw;
+  background-color: black;
+}
+
+.line50{
+  position: absolute;
+  width: 37vw;
+  height:2px;
+  top:253vh;
+  left: 37vw;
+  background-color: black;
+}
+.line51{
+  position: absolute;
+  width: 69vw;
+  height:2px;
+  top:300vh;
+  left:18vw;
+  background-color: black;
+}
+.line52{
+  position: absolute;
+  width: 13vw;
+  height:2px;
+  top:396vh;
+  left:50vw;
+  background-color: black;
+}
+.line53{
+  position: absolute;
+  width: 13vw;
+  height:2px;
+  top:372vh;
+  left:37vw;
+  background-color: black;
+}
+
+.line54{
+  position: absolute;
+  width: 13vw;
+  height:2px;
+  top:389vh;
+  left:37vw;
+  background-color: black;
+}
+.line55{
+  position: absolute;
+  width: 13vw;
+  height:2px;
+  top:405vh;
+  left:37vw;
+  background-color: black;
+}
+.line56{
+  position: absolute;
+  width: 13vw;
+  height:2px;
+  top:422vh;
+  left:37vw;
+  background-color: black;
+}
+
+.block55 {
+    position: absolute;
+    left: 6.25vw;
+    top:372vh;
+    text-align: left;
+    width: 35.5vw;
+    height: 11vh;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: white;
+    line-height: 1.4vw;
+    font-size: 2.3vh;
+}
+.block56{
+    position: absolute;
+    left: 6.25vw;
+    top: 357vh;
+}
+
+.img35 {
+    position: absolute;
+    left: 50vw;
+    top: 372vh;
+    width: 43.6979167vw;
+    height: 48vh;
+    border-radius: 5vw;
+    background-size: cover;
+    background-image: url(../images/картинка20.jpg);
+}
+
+.img36 {
+    position: absolute;
+    left: 6.25vw;
+    top: 390vh;
+    width: 35.5vw;
+    height: 48vh;
+    border-radius: 5vw;
+    background-size: cover;
+    background-image: url(../images/картинка26.jpg);
+}
+.block57 {
+    position: absolute;
+    left: 55.625vw;
+    top: 424vh;
+    text-align: left;
+    width: 35.5vw;
+    height:16vh;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: white;
+    line-height: 1.4vw;
+    font-size: 2.3vh;
+}
+.block58 {
+    left: 55.625vw;
+    top: 446vh;
+}
+
+.img37 {
+    position: absolute;
+    left: 6.25vw;
+    top: 462vh;
+    width: 87.395833vw;
+    height: 45vh;
+    border-radius: 5vw;
+    background-image: url(../images/картинка27.jpg);
+}
+
+.img38 {
+    position: absolute;
+    left: 50vw;
+    top:512vh;
+    width: 43.6979167vw;
+    height: 48vh;
+    border-radius: 5vw;
+    background-size: cover;
+    background-image: url(../images/картинка28.jpg);
+}
+.block59 {
+    position: absolute;
+    left: 6.25vw;
+    top: 512vh;
+    text-align: left;
+    width: 35.5vw;
+    height: 23vh;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: white;
+    line-height: 1.4vw;
+    font-size: 2.3vh;
+}
+.block60 {
+    left:  6.25vw;
+    top: 549vh;
+}
+
+.img39 {
+    position: absolute;
+    left: 6.25vw;
+    top: 566vh;
+    width: 60.69791670000001vw;
+    height: 48vh;
+    border-radius: 5vw;
+    background-size: cover;
+    background-image: url(../images/картинка29.jpg);
+}
+.img40 {
+    position: absolute;
+    left: 69vw;
+    top: 566vh;
+    width: 24.697916700000007vw;
+    height: 64vh;
+    border-radius: 5vw;
+    background-size: cover;
+    background-image: url(../images/картинка23.jpg);
+}
+.block61 {
+    position: absolute;
+    left: 6.25vw;
+    top: 620vh;
+    text-align: left;
+    width: 35.5vw;
+    height: 21vh;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: white;
+    line-height: 1.4vw;
+    font-size: 2.3vh;
+}
+
+.block62 {
+    left: 55.625vw;
+    top: 646vh;
+}
+
+.block63 {
+    position: absolute;
+    left: 55.625vw;
+    top: 660vh;
+    text-align: left;
+    width: 35.5vw;
+    height: 21vh;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: white;
+    line-height: 1.4vw;
+    font-size: 2.3vh;
+}
+
+.up1 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 6.57407407vh;
+    top:736vh;
+    font-size: 1.8vw;
+    width: 12.5vw;
+    height: 6.57407407vh;
+    background-image: url(../images/шестикульник1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img41 {
+    position: absolute;
+    left: 6.25vw;
+    top: 687vh;
+    width: 87.395833vw;
+    height: 45vh;
+    border-radius: 5vw;
+    background-image: url(../images/картинка25.jpg);
+    background-position: bottom;
 }

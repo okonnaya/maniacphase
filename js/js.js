@@ -20,7 +20,7 @@ let things = [
 // самая крутая функция которую я когда-либо писала
 function randomfigures(){
   var randomValue = things[Math.floor(things.length * Math.random())];
-  var nomer = Math.floor(Math.random() * 10);
+  var nomer = Math.floor(17 * Math.random());
   let figure = document.createElement("div")
   wrandom = Math.floor(Math.random() * 51) + 30;
   hrandom = Math.floor(Math.random() * 51) + 30;
@@ -41,7 +41,7 @@ function randomfigures(){
   var a = Math.floor(Math.random() * 1000 - 5);
   figure.style.transform = 'rotate(' + a + 'deg)';
   figure.classList.add("mylovers");
-  
+
 // музыкальная дискотека
   var audio = new Audio(`./music/${nomer}.mp3`);
   audio.play();
