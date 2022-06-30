@@ -295,6 +295,9 @@ header{
   background-color: black;
   z-index: -1;
 }
+.mainone {
+  width: 100vw;
+}
 .visibility{
   display: none;
 }
