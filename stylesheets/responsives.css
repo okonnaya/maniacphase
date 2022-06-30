@@ -1,0 +1,230 @@
+@media only screen and (min-width: 1367px) and (max-width: 1440px){
+  body{
+    width: 1440px;
+    overflow-x: hidden;
+  }
+  .line21{
+    height: 16.3vh;
+  }
+  .block43{
+    width: 15.5vw;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px){
+  body{
+    width: 1366px;
+    overflow-x: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  body{
+    width: 1024px;
+    overflow-x: hidden;
+  }
+  .line20{
+    height: 14vh;
+  }
+  .line21{
+    height: 19vh;
+  }
+  .line25, .line26{
+    right: 28.3vw;
+  }
+  .password{
+    left: 54vw;
+  }
+  .nothing404 {
+    font-size: 3vw;
+}
+.vopros{
+  left:59.6vw;
+}
+.block3{
+  line-height: 1.3;
+  height: 35.777777799999996vh;
+  z-index: 100;
+}
+.block4{
+  width: 23vw;
+  line-height: 1.3;
+}
+.block31{
+  height: 9vh;
+  line-height: 1.3;
+}
+.block22, .block23, .block25, .block26{
+  line-height: 1;
+}
+.block25{
+  height: 30vh;
+}
+.block23{
+  height: 22vh;
+}
+.block68{
+  width:22.5vw;
+}
+.block43{
+  width: 15.5vw;
+}
+}
+
+@media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+  /* iPad */
+  body{
+    width: 768px;
+  }
+  .nothing404 {
+    font-size: 3vw;
+}
+
+  input{
+    width: 25.1vh;
+  }
+  .block1{
+    background-size: 100% auto;
+  }
+  .bureau{
+    background-size: 100% auto;
+  }
+  .tak1{
+    width: 57.5vw;
+  }
+  .shtuki1{
+    width: 57.5vw;
+  }
+  .welcome{
+    width: 50.5vh;
+  }
+
+}
+
+@media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+    /* iPhone */
+    body{
+      width: 414px;
+    }
+    input{
+      width: 20.1vh;
+      font-size: 3.3vh;
+      height:6.1vh;
+    }
+    .nothing404 {
+      font-size: 3vh;
+      width: 90.5vw;
+  }
+    .password{
+      left:51vw;
+    }
+    .block1{
+      background-size: 100% auto;
+      height:6.1vh;
+    }
+    .bureau{
+      background-size: 100% auto;
+      height:6.1vh;
+      width: 24.1vh;
+    }
+    .tak1{
+      width: 60vw;
+      top:31.85vh;
+    }
+    .line2{
+      top:31.85vh;
+      width: 59.5vw;
+    }
+    .line3{
+      height: 21.4vh;
+    }
+    .line4{
+      height: 41.1vh;
+    }
+    .shtuki1{
+      width: 60vw;
+    }
+    .tak2{
+      width: 98vw;
+    }
+    .shtuki2{
+      width: 98vw;
+    }
+    .line3{
+      z-index: 100;
+    }
+    .welcome{
+      width: 35.5vh;
+      height:6.1vh;
+    }
+    h1{
+      font-size: 3.3vh;
+    }
+
+}
+
+
+@media only screen and (max-device-width: 360px){
+  /* Android */
+  body{
+    width: 360px;
+  }
+  input{
+    width: 20.1vh;
+    font-size: 3.3vh;
+    height:6.1vh;
+  }
+  .nothing404 {
+    font-size: 3vh;
+    width: 90.5vw;
+}
+  .password{
+    left:51vw;
+  }
+  .block1{
+    background-size: 100% auto;
+    height:6.1vh;
+  }
+  .bureau{
+    background-size: 100% auto;
+    height:6.1vh;
+    width: 24.1vh;
+  }
+  .tak1{
+    width: 60vw;
+    top:31.85vh;
+  }
+  .line2{
+    top:31.85vh;
+    width: 59.5vw;
+  }
+  .line3{
+    height: 21.4vh;
+  }
+  .line4{
+    height: 41.1vh;
+  }
+  .shtuki1{
+    width: 60vw;
+  }
+  .tak2{
+    width: 98vw;
+  }
+  .shtuki2{
+    width: 98vw;
+  }
+  .line3{
+    z-index: 100;
+  }
+  .welcome{
+    width: 35.5vh;
+    height:6.1vh;
+  }
+  h1{
+    font-size: 3.3vh;
+  }
+  .password{
+    left: 59vw;
+  }
+}

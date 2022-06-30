@@ -1,6 +1,7 @@
 $( function() {
     $( ".draggable" ).draggable();
   } );
+$('#widget').draggable();
 
 var meow = new Audio(`./music/meow.mp3`);
 

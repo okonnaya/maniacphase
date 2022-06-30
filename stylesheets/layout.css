@@ -218,6 +218,9 @@ a:hover{
 }
 
 #jsback{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
   z-index: 1;
   box-sizing: border-box;
   overflow: hidden;
@@ -250,6 +253,9 @@ header{
   top: 0;
   width: 100vw;
   z-index: 4;
+}
+.line3{
+  z-index: 100;
 }
 .head1{
   display: flex;
