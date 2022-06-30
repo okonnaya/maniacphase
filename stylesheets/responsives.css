@@ -80,6 +80,9 @@
   .nothing404 {
     font-size: 3vw;
 }
+header{
+  display: none;
+}
 
   input{
     width: 25.1vh;
@@ -106,6 +109,9 @@
     /* iPhone */
     body{
       width: 414px;
+    }
+    header{
+      display: none;
     }
     input{
       width: 20.1vh;
@@ -169,6 +175,9 @@
   /* Android */
   body{
     width: 360px;
+  }
+  header{
+    display: none;
   }
   input{
     width: 20.1vh;
